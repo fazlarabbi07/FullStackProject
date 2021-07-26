@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.header{
+    background: #3E5C9A;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.logoarea{
+width: 30%;
+float: left;
+}
+.logoarea img{
+    width: 170px;
+    margin-top: 8px;
+}
+.loginarea{
+    width: 70%;
+    float: left;
+    color: #fff;
+
+}
+.loginarea form{
+    float: right;
+}
+.loginarea label,
+.loginarea input{
+    display: block;
+}
+.loginarea label{
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+ .loginarea .email,
+ .loginarea .password,
+ .loginarea .login{
+     float: left;
+     margin: 6px;
+ }
+ .loginarea .login{
+     margin: none;
+ }
+ .loginarea input[type="text"],
+ .loginarea input[type="password"]{
+     border: 1px solid #0000;
+     font-size:13px ;
+     font-weight: 300;
+     padding: 0 3px;
+ }
+ .loginarea .password a{
+     color: #fff;
+     font-size: 9px;
+     text-decoration: none;
+
+ }
+ .loginarea .password a:hover{
+    
+     text-decoration: underline;
+     }
+.loginarea input[type="submit"]{
+    background: #3E5C9A;
+    color: #fff;
+    margin-top: 19px;
+    border: 1px solid #fff;
+    font-weight: 600;
+}
