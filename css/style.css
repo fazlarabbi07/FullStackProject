@@ -81,7 +81,7 @@ float: left;
     padding: 20px 0;
 }
 .left_area{
-    width: 60%;
+    width: 50%;
     float: left;
 }
 .left_area p{
@@ -95,7 +95,7 @@ float: left;
     height: 250px;
 }
 .right_area{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 .right_area h2{
@@ -115,11 +115,47 @@ float: left;
 .right_area input[type="password"]{
     width: 100%;
     box-sizing: border-box;
+    border:1px solid #bdc7d8;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    margin: 5px 0;
 }
-.right_area .first_name,
-.right_area .sur_name{
-    width: 50%;
-    float:left;
-    
+.full_name{
+overflow: hidden;
+}
+.first_name{
+width: 48%;
+float: left;
+margin-right:4%;
+
+}
+.sur_name{
+    width: 48%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
     
 }
+.birthday h4{
+  margin: 0 5px;
+
+}
+.birth_date{
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    
+}
+.birth_date select{
+    border:1px solid #ccc;
+    padding: 5px;
+    float: left;
+    font-size: 14px;
+
+}
+.birth_link{
+    font-size:10px;
+}
+
