@@ -126,8 +126,9 @@ float: left;
 overflow: hidden;
 }
 .first_name{
-width: 48%;
+width: 47%;
 float: left;
+margin-left: 1px;
 margin-right:4%;
 
 }
@@ -226,15 +227,6 @@ color: #365899;
 .band a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
 /*
 .shadow{
   width: 250px;
